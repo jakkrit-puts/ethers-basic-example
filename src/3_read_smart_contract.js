@@ -28,13 +28,15 @@ const main = async () => {
     console.log(`Read from contract address: ${address} \n`);
     console.log(`Name: ${name}`);
     console.log(`Symbol: ${symbol}`);
-    console.log(`TotalSupply: ${totalSupply}  Wei \n`);
+    console.log(`TotalSupply: ${ethers.utils.formatEther(totalSupply)} DMN \n`);
 
     console.log(`Balance Return: ${balance} Wei`);
     console.log(`Balance Format: ${ethers.utils.formatEther(balance)} DMN \n`);
 
     console.log(`Owner: ${owner}`);
     console.log(`Decimal: ${decimal}`);
+
+    // DOMINO TOKEN
 
 }
 
