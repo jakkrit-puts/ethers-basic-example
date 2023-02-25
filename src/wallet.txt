@@ -1,0 +1,4 @@
+
+wallet_address: 0x74bC5640C7de5d5062C223F65447785a23b91CaB,
+phrase: room fault buyer tobacco cloud liquid frame electric raw cinnamon basic laptop,
+privatekey: 0xa8801c423ac9881c076d12702849cbfc6d45ce643a77c8d99a0f78f39f723efd
