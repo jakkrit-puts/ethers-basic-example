@@ -25,7 +25,7 @@ const main = async () => {
 
     const contractWithWallet = contract.connect(wallet)
 
-    const tx = await contractWithWallet.transfer(account2, "10")
+    const tx = await contractWithWallet.transfer(account2, ethers.utils.parseEther("5000"))
     await tx.wait()
 
     console.log(tx)
